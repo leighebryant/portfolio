@@ -1,21 +1,52 @@
+
+
 .connectForm{
+  margin: 0 auto;
+
    input{
      border: none;
      outline: none;
-     width: 90%;
+     width: 96.5%;
      padding: 10px;
-     margin: 10px;
+     margin: 10px 0px;
      border-radius: 5px;
      font-family: $main-font;
-     background: $rosehip;
-     color: $heirloom-rose;
+     font-size: 12px;
+     background: $heirloom-rose;
+     color: $cream;
    }
 
    button{
-     background: $heirloom-rose;
+     background: $persimmon;
+     color: $twilight;
      border: none;
      border-radius: 5px;
      padding: 5px 15px;
+     font-size: 14px;
+    outline: none;
+    border-bottom: 2px solid $twilight;
+    cursor: pointer;
+    float: right;
+    margin: 10px 0px;
 
+
+      &:hover, &:active{
+        background: $rosehip;
+        color: $heirloom-rose;
+        border-bottom: 2px solid $heirloom-rose;
+      }
    }
+}
+
+::-webkit-input-placeholder {
+  color: $cream;
+}
+::-moz-placeholder {
+  color: $cream;
+}
+:-ms-input-placeholder {
+  color: $cream;
+}
+:-moz-placeholder {
+  color: $cream;
 }
