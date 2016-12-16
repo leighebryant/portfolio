@@ -1,8 +1,23 @@
+header{
+  display: flex;
+  flex-direction: row;
+
+    .fa{
+      color: $oxblood;
+      font-size: 25px;
+      padding: 5px 15px 0px 15px;
+      float: right;
+
+      &:hover{
+        color: $persimmon;
+    }
+  }
+}
 
 .connectForm{
   margin: 0 auto;
 
-   input, textarea{
+   input{
      border: none;
      outline: none;
      width: 96.5%;
