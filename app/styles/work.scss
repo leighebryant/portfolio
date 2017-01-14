@@ -1,0 +1,22 @@
+.workContainer{
+  background: red;
+  width: 120%;
+}
+
+.projectContainer{
+  background: green;
+}
+
+.thumbnail{
+  width: 70%;
+  border: 4px solid $heirloom-rose;
+  border-radius: 2px;
+}
+
+.righttriangle{
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 10px 0 10px 10px;
+border-color: transparent transparent transparent #007bff;
+}
