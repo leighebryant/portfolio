@@ -1,22 +1,19 @@
 .workContainer{
-  background: red;
-  width: 120%;
+  display: flex;
+  flex-direction: column;
 }
 
-.projectContainer{
-  background: green;
-}
+.imageContainer{
+  background: $heirloom-rose;
+  border-radius: 2px;
+  padding: 4px 4px 1px 4px;
 
 .thumbnail{
-  width: 70%;
-  border: 4px solid $heirloom-rose;
-  border-radius: 2px;
+  width: 100%;
+}
 }
 
-.righttriangle{
-  width: 0;
-height: 0;
-border-style: solid;
-border-width: 10px 0 10px 10px;
-border-color: transparent transparent transparent #007bff;
+.infoContainer{
+  width: 100%;
+  text-align: left;
 }
