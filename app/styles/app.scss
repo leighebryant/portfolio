@@ -66,3 +66,36 @@ p{
   font-family: $main-font;
   padding: 10px;
 }
+
+@media only screen and (max-width: 850px){
+  .contentContainer{
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 750px){
+  .contentContainer{
+    width: 70%;
+  }
+  #homeImage{
+    padding-top: 20%;
+  }
+}
+@media only screen and (max-width: 550px){
+  h3{
+    font-size: 16px;
+  }
+  p{
+    font-size: 15px;
+  }
+  #homeImage{
+    padding-top: 40%;
+    width: 80%;
+    padding-left: 19%;
+  }
+}
+@media only screen and (max-width: 450px){
+  .contentContainer{
+    width: 80%;
+    padding: 10px;
+  }
+}

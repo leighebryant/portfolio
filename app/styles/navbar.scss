@@ -60,3 +60,14 @@ ul.navigation{
     }
   }
 }
+
+@media only screen and (max-width: 650px){
+  .headerImage{
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 500px){
+  .headerImage{
+    height: 150px;
+  }
+}
