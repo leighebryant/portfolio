@@ -1,19 +1,36 @@
-.workContainer{
+.workContainer {
   display: flex;
   flex-direction: column;
 }
 
-.imageContainer{
+.imageContainer {
   background: $heirloom-rose;
   border-radius: 2px;
-  padding: 4px 4px 1px 4px;
+  padding: 4px 4px 1px;
 
-.thumbnail{
-  width: 100%;
-}
+  .thumbnail {
+    width: 100%;
+  }
 }
 
-.infoContainer{
+.infoContainer {
   width: 100%;
   text-align: left;
+}
+
+.projectLink{
+  text-decoration: none;
+  color: $twilight;
+  border-bottom: solid 1px $rosehip;
+
+  &:hover{
+    border-bottom: solid 3px $persimmon;
+    transition: .5s ease-in-out;
+  }
+}
+
+.banner{
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
 }

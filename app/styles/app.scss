@@ -38,6 +38,8 @@ h1{
   font-family: $main-font;
   font-weight: bold;
   padding-bottom: 15px;
+  transition: .3s ease-in-out;
+
 }
 
 h2{
@@ -47,6 +49,17 @@ h2{
   font-weight: bold;
   padding-left: 10px;
   padding-top: 10px;
+}
+
+h3{
+  font-size: 18px;
+  color: $oxblood;
+  font-family: $main-font;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
 }
 
 p{
