@@ -1183,7 +1183,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+3082e76b"});
+  require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+0a61cca2"});
 }
 
 /* jshint ignore:end */
