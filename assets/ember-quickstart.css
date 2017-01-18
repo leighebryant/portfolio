@@ -204,6 +204,12 @@ ul.navigation {
   h3 {
     font-size: 12px; } }
 
+@font-face {
+  font-family: 'cosmopolitan_scriptbold';
+  src: url("fenotype_-_cosmopolitanscript-bold-webfont.woff2") format("woff2"), url("fenotype_-_cosmopolitanscript-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 .ember-application {
   background: #f9f1e9; }
 
