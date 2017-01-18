@@ -49,3 +49,9 @@
 :-moz-placeholder {
   color: $cream;
 }
+
+@media only screen and (max-width: 750px){
+  .headerImage{
+    height: 200px;
+  }
+}
