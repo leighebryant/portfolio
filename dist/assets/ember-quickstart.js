@@ -257,7 +257,7 @@ define("ember-quickstart/templates/about", ["exports"], function (exports) {
             "column": 0
           },
           "end": {
-            "line": 20,
+            "line": 22,
             "column": 0
           }
         },
@@ -327,7 +327,24 @@ define("ember-quickstart/templates/about", ["exports"], function (exports) {
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("br");
         dom.appendChild(el4, el5);
-        var el5 = dom.createTextNode("\n    In my free time when I’m not designing or developing, I enjoy competitively riding horses, reading, and trying out whatever new recipe I stumble across online.\n");
+        var el5 = dom.createTextNode("\n    In my free time when I’m not designing or developing, I enjoy competitively riding horses, reading, and trying out whatever new recipe I stumble across online.\n    ");
+        dom.appendChild(el4, el5);
+        var el5 = dom.createElement("br");
+        dom.appendChild(el4, el5);
+        var el5 = dom.createElement("br");
+        dom.appendChild(el4, el5);
+        var el5 = dom.createTextNode("\n    ");
+        dom.appendChild(el4, el5);
+        var el5 = dom.createElement("button");
+        var el6 = dom.createElement("a");
+        dom.setAttribute(el6, "href", "images/LBryantResume.pdf");
+        dom.setAttribute(el6, "target", "blank");
+        dom.setAttribute(el6, "name", "My Resume");
+        var el7 = dom.createTextNode("My Resume");
+        dom.appendChild(el6, el7);
+        dom.appendChild(el5, el6);
+        dom.appendChild(el4, el5);
+        var el5 = dom.createTextNode("\n");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
         var el4 = dom.createTextNode("\n    ");

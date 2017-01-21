@@ -133,22 +133,6 @@ ul.navigation {
     font-size: 12px;
     background: #844851;
     color: #f9f1e9; }
-  .connectForm button {
-    background: #cf5b63;
-    color: #39374c;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 15px;
-    font-size: 14px;
-    outline: none;
-    border-bottom: 2px solid #39374c;
-    cursor: pointer;
-    float: right;
-    margin: 10px 0; }
-    .connectForm button:active, .connectForm button:hover {
-      background: #f8afad;
-      color: #844851;
-      border-bottom: 2px solid #844851; }
 
 ::-webkit-input-placeholder {
   color: #f9f1e9; }
@@ -257,6 +241,26 @@ h3 {
 p {
   font-family: "Quicksand", sans-serif;
   padding: 10px; }
+
+button {
+  background: #cf5b63;
+  color: #39374c;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 14px;
+  outline: none;
+  border-bottom: 2px solid #39374c;
+  cursor: pointer;
+  float: right;
+  margin: 10px 0; }
+  button:active, button:hover {
+    background: #f8afad;
+    color: #844851;
+    border-bottom: 2px solid #844851; }
+  button a {
+    color: #39374c;
+    text-decoration: none; }
 
 @media only screen and (max-width: 850px) {
   .contentContainer {

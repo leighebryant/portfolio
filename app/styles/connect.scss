@@ -14,27 +14,6 @@
     background: $heirloom-rose;
     color: $cream;
   }
-
-  button {
-    background: $persimmon;
-    color: $twilight;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 15px;
-    font-size: 14px;
-    outline: none;
-    border-bottom: 2px solid $twilight;
-    cursor: pointer;
-    float: right;
-    margin: 10px 0;
-
-    &:active,
-    &:hover {
-      background: $rosehip;
-      color: $heirloom-rose;
-      border-bottom: 2px solid $heirloom-rose;
-    }
-  }
 }
 
 ::-webkit-input-placeholder {
