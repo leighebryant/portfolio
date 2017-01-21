@@ -337,7 +337,7 @@ define("ember-quickstart/templates/about", ["exports"], function (exports) {
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("button");
         var el6 = dom.createElement("a");
-        dom.setAttribute(el6, "href", "assets/LBryantResume.pdf");
+        dom.setAttribute(el6, "href", "assets/forms/LBryantResume.pdf");
         dom.setAttribute(el6, "target", "blank");
         dom.setAttribute(el6, "name", "My Resume");
         var el7 = dom.createTextNode("My Resume");
