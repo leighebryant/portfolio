@@ -59,7 +59,7 @@ ul.navigation {
       text-decoration: none; }
 
 .logoContainer {
-  background: #39374c; }
+  background: #39374b; }
 
 .headerImage img {
   height: 250px;
@@ -85,7 +85,7 @@ ul.navigation {
     color: #f9f1e9; }
     .contactBar i:hover, .contactBar i:active {
       cursor: pointer;
-      color: #39374c; }
+      color: #39374b; }
 
 .profile {
   width: 200px;
@@ -175,7 +175,7 @@ ul.navigation {
 
 .projectLink {
   text-decoration: none;
-  color: #39374c;
+  color: #39374b;
   border-bottom: solid 1px #f8afad; }
   .projectLink:hover {
     border-bottom: solid 3px #cf5b63;
@@ -201,7 +201,7 @@ ul.navigation {
 .logo {
   width: 100%;
   height: 700px;
-  background: #39374c; }
+  background: #39374b; }
 
 .mainPage {
   width: 90%; }
@@ -244,13 +244,13 @@ p {
 
 button {
   background: #cf5b63;
-  color: #39374c;
+  color: #39374b;
   border: none;
   border-radius: 5px;
   padding: 5px 15px;
   font-size: 14px;
   outline: none;
-  border-bottom: 2px solid #39374c;
+  border-bottom: 2px solid #39374b;
   cursor: pointer;
   float: right;
   margin: 10px 0; }
@@ -259,7 +259,7 @@ button {
     color: #844851;
     border-bottom: 2px solid #844851; }
   button a {
-    color: #39374c;
+    color: #39374b;
     text-decoration: none; }
 
 @media only screen and (max-width: 850px) {
