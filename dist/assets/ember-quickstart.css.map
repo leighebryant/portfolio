@@ -3,13 +3,13 @@
 	"sourceRoot": "/Users/leighbryant/Documents/Assignments/portfolio/app/styles",
 	"file": "ember-quickstart.css",
 	"sources": [
-		"../../sass_compiler-input_base_path-ooyKRyw7.tmp/app/styles/app.scss",
-		"../../sass_compiler-input_base_path-ooyKRyw7.tmp/app/styles/partials/_variables.scss",
-		"../../sass_compiler-input_base_path-ooyKRyw7.tmp/app/styles/partials/_reset.scss",
-		"../../sass_compiler-input_base_path-ooyKRyw7.tmp/app/styles/navbar.scss",
-		"../../sass_compiler-input_base_path-ooyKRyw7.tmp/app/styles/about.scss",
-		"../../sass_compiler-input_base_path-ooyKRyw7.tmp/app/styles/connect.scss",
-		"../../sass_compiler-input_base_path-ooyKRyw7.tmp/app/styles/work.scss"
+		"../../sass_compiler-input_base_path-j3CVncq7.tmp/app/styles/app.scss",
+		"../../sass_compiler-input_base_path-j3CVncq7.tmp/app/styles/partials/_variables.scss",
+		"../../sass_compiler-input_base_path-j3CVncq7.tmp/app/styles/partials/_reset.scss",
+		"../../sass_compiler-input_base_path-j3CVncq7.tmp/app/styles/navbar.scss",
+		"../../sass_compiler-input_base_path-j3CVncq7.tmp/app/styles/about.scss",
+		"../../sass_compiler-input_base_path-j3CVncq7.tmp/app/styles/connect.scss",
+		"../../sass_compiler-input_base_path-j3CVncq7.tmp/app/styles/work.scss"
 	],
 	"sourcesContent": [
 		"@import 'partials/variables';\n@import 'partials/reset';\n@import 'navbar';\n@import 'about';\n@import 'connect';\n@import 'work';\n\n.ember-application{\n  background: $cream;\n}\n\n.contentContainer{\n  margin: 0 auto;\n  width: 50%;\n  padding: 20px;\n}\n\n.logo{\n  width: 100%;\n  height: 700px;\n  background: $twilight;\n}\n\n.mainPage{\n  width: 90%;\n}\n\n#homeImage{\n  width: 100%;\n  padding-top: 2%;\n  padding-left: 5%;\n}\n\nh1{\n  font-size: 32px;\n  text-transform: lowercase;\n  color: $oxblood;\n  font-family: $main-font;\n  font-weight: bold;\n  padding-bottom: 15px;\n  transition: .3s ease-in-out;\n\n}\n\nh2{\n  font-size: 25px;\n  color: $oxblood;\n  font-family: $main-font;\n  font-weight: bold;\n  padding-left: 10px;\n  padding-top: 10px;\n}\n\nh3{\n  font-size: 18px;\n  color: $oxblood;\n  font-family: $main-font;\n  font-weight: bold;\n  text-transform: uppercase;\n  padding-left: 10px;\n  padding-top: 10px;\n  text-align: center;\n}\n\np{\n  font-family: $main-font;\n  padding: 10px;\n}\n\nbutton {\n  background: $persimmon;\n  color: $twilight;\n  border: none;\n  border-radius: 5px;\n  padding: 5px 15px;\n  font-size: 14px;\n  outline: none;\n  border-bottom: 2px solid $twilight;\n  cursor: pointer;\n  float: right;\n  margin: 10px 0;\n\n  &:active,\n  &:hover {\n    background: $rosehip;\n    color: $heirloom-rose;\n    border-bottom: 2px solid $heirloom-rose;\n  }\n\n  a{\n    color: $twilight;\n    text-decoration: none;\n  }\n}\n\n\n@media only screen and (max-width: 850px){\n  .contentContainer{\n    width: 60%;\n  }\n}\n@media only screen and (max-width: 750px){\n  .contentContainer{\n    width: 70%;\n  }\n  #homeImage{\n    padding-top: 20%;\n  }\n}\n@media only screen and (max-width: 550px){\n  h3{\n    font-size: 16px;\n  }\n  p{\n    font-size: 15px;\n  }\n  #homeImage{\n    padding-top: 30%;\n    width: 100%;\n    padding-left: 4%;\n  }\n}\n@media only screen and (max-width: 450px){\n  .contentContainer{\n    width: 80%;\n    padding: 10px;\n  }\n}\n",
