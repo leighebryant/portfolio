@@ -27,11 +27,11 @@ ul.navigation{
 }
 
 .headerImage{
-  height: 250px;
-  display: flex;
+  // width: 36%;
+  // margin: 0 auto;
 
   img{
-    width: 200%;
+    height: 250px;
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: .3s ease-in-out;
@@ -42,6 +42,11 @@ ul.navigation{
       transform: scale(.95);
     }
   }
+}
+
+.responsiveImage{
+  width: 460px;
+  margin: 0 auto;
 }
 
 .contactBar{
@@ -58,16 +63,5 @@ ul.navigation{
       cursor: pointer;
       color: $twilight;
     }
-  }
-}
-
-@media only screen and (max-width: 650px){
-  .headerImage{
-    height: 200px;
-  }
-}
-@media only screen and (max-width: 500px){
-  .headerImage{
-    height: 150px;
   }
 }

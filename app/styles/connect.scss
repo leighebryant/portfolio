@@ -1,57 +1,73 @@
-
-.connectForm{
+.connectForm {
   margin: 0 auto;
 
-   input, textarea{
-     border: none;
-     outline: none;
-     width: 96.5%;
-     padding: 10px;
-     margin: 10px 0px;
-     border-radius: 5px;
-     font-family: $main-font;
-     font-size: 12px;
-     background: $heirloom-rose;
-     color: $cream;
-   }
+  input,
+  textarea {
+    border: none;
+    outline: none;
+    width: 96.5%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-family: $main-font;
+    font-size: 12px;
+    background: $heirloom-rose;
+    color: $cream;
+  }
 
-   button{
-     background: $persimmon;
-     color: $twilight;
-     border: none;
-     border-radius: 5px;
-     padding: 5px 15px;
-     font-size: 14px;
+  button {
+    background: $persimmon;
+    color: $twilight;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 14px;
     outline: none;
     border-bottom: 2px solid $twilight;
     cursor: pointer;
     float: right;
-    margin: 10px 0px;
+    margin: 10px 0;
 
-
-      &:hover, &:active{
-        background: $rosehip;
-        color: $heirloom-rose;
-        border-bottom: 2px solid $heirloom-rose;
-      }
-   }
+    &:active,
+    &:hover {
+      background: $rosehip;
+      color: $heirloom-rose;
+      border-bottom: 2px solid $heirloom-rose;
+    }
+  }
 }
 
 ::-webkit-input-placeholder {
   color: $cream;
 }
+
 ::-moz-placeholder {
   color: $cream;
 }
+
 :-ms-input-placeholder {
   color: $cream;
 }
+
 :-moz-placeholder {
   color: $cream;
 }
+@media only screen and (max-width: 750px) {
+  .headerImage {
+    img {
+      height: 200px;
+    }
+  }
 
-@media only screen and (max-width: 750px){
-  .headerImage{
-    height: 200px;
+  .responsiveImage {
+    width: 365px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .headerImage img {
+    height: 150px;
+  }
+  .responsiveImage {
+    width: 274px;
   }
 }

@@ -257,7 +257,7 @@ define("ember-quickstart/templates/about", ["exports"], function (exports) {
             "column": 0
           },
           "end": {
-            "line": 18,
+            "line": 20,
             "column": 0
           }
         },
@@ -277,8 +277,15 @@ define("ember-quickstart/templates/about", ["exports"], function (exports) {
         dom.setAttribute(el2, "class", "headerImage");
         var el3 = dom.createTextNode("\n    ");
         dom.appendChild(el2, el3);
-        var el3 = dom.createElement("img");
-        dom.setAttribute(el3, "src", "images/header.svg");
+        var el3 = dom.createElement("div");
+        dom.setAttribute(el3, "class", "responsiveImage");
+        var el4 = dom.createTextNode("\n      ");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createElement("img");
+        dom.setAttribute(el4, "src", "images/mainLogo.png");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createTextNode("\n    ");
+        dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
         var el3 = dom.createTextNode("\n  ");
         dom.appendChild(el2, el3);
@@ -411,7 +418,7 @@ define("ember-quickstart/templates/connect", ["exports"], function (exports) {
             "column": 0
           },
           "end": {
-            "line": 25,
+            "line": 27,
             "column": 0
           }
         },
@@ -431,8 +438,15 @@ define("ember-quickstart/templates/connect", ["exports"], function (exports) {
         dom.setAttribute(el2, "class", "headerImage");
         var el3 = dom.createTextNode("\n    ");
         dom.appendChild(el2, el3);
-        var el3 = dom.createElement("img");
-        dom.setAttribute(el3, "src", "images/header.svg");
+        var el3 = dom.createElement("div");
+        dom.setAttribute(el3, "class", "responsiveImage");
+        var el4 = dom.createTextNode("\n      ");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createElement("img");
+        dom.setAttribute(el4, "src", "images/mainLogo.png");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createTextNode("\n    ");
+        dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
         var el3 = dom.createTextNode("\n  ");
         dom.appendChild(el2, el3);
@@ -591,7 +605,7 @@ define("ember-quickstart/templates/index", ["exports"], function (exports) {
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("img");
         dom.setAttribute(el3, "id", "homeImage");
-        dom.setAttribute(el3, "src", "images/mainpage.svg");
+        dom.setAttribute(el3, "src", "images/mainLogo.png");
         dom.appendChild(el2, el3);
         var el3 = dom.createTextNode("\n");
         dom.appendChild(el2, el3);
@@ -856,7 +870,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
             "column": 0
           },
           "end": {
-            "line": 54,
+            "line": 56,
             "column": 0
           }
         },
@@ -876,8 +890,15 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         dom.setAttribute(el2, "class", "headerImage");
         var el3 = dom.createTextNode("\n    ");
         dom.appendChild(el2, el3);
-        var el3 = dom.createElement("img");
-        dom.setAttribute(el3, "src", "images/header.svg");
+        var el3 = dom.createElement("div");
+        dom.setAttribute(el3, "class", "responsiveImage");
+        var el4 = dom.createTextNode("\n      ");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createElement("img");
+        dom.setAttribute(el4, "src", "images/mainLogo.png");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createTextNode("\n    ");
+        dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
         var el3 = dom.createTextNode("\n  ");
         dom.appendChild(el2, el3);
@@ -1183,7 +1204,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+1b422983"});
+  require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+20beda81"});
 }
 
 /* jshint ignore:end */
