@@ -564,7 +564,7 @@ define("ember-quickstart/templates/connect", ["exports"], function (exports) {
         var el4 = dom.createElement("input");
         dom.setAttribute(el4, "type", "hidden");
         dom.setAttribute(el4, "name", "_next");
-        dom.setAttribute(el4, "value", "http://localhost:4200/connect");
+        dom.setAttribute(el4, "value", "https://leighebryant.github.io/portfolio/connect");
         dom.appendChild(el3, el4);
         var el4 = dom.createTextNode("\n  ");
         dom.appendChild(el3, el4);
@@ -1221,7 +1221,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+1a2b77de"});
+  require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+eff8249a"});
 }
 
 /* jshint ignore:end */
