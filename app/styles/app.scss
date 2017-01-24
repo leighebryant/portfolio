@@ -17,12 +17,14 @@
 
 .logo{
   width: 100%;
-  height: auto;
+  height: 100%;
+  position: absolute;
   background: $twilight;
 }
 
 .mainPage{
   width: 90%;
+  position: absolute;
 }
 
 #homeImage{
