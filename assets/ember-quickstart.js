@@ -945,6 +945,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("a");
         dom.setAttribute(el4, "href", "http://pet-pals.firebaseapp.com");
+        dom.setAttribute(el4, "target", "_blank");
         var el5 = dom.createElement("img");
         dom.setAttribute(el5, "class", "thumbnail");
         dom.setAttribute(el5, "src", "images/petpalsscreenshot.png");
@@ -963,6 +964,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         var el5 = dom.createElement("a");
         dom.setAttribute(el5, "class", "projectLink");
         dom.setAttribute(el5, "href", "http://pet-pals.firebaseapp.com");
+        dom.setAttribute(el5, "target", "_blank");
         var el6 = dom.createTextNode("PetPals NC");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
@@ -1005,6 +1007,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("a");
         dom.setAttribute(el4, "href", "https://zachschreiber.github.io/Mad-Libs/");
+        dom.setAttribute(el4, "target", "_blank");
         var el5 = dom.createElement("img");
         dom.setAttribute(el5, "class", "thumbnail");
         dom.setAttribute(el5, "src", "images/spielscreenshot.png");
@@ -1023,6 +1026,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         var el5 = dom.createElement("a");
         dom.setAttribute(el5, "class", "projectLink");
         dom.setAttribute(el5, "href", "https://zachschreiber.github.io/Mad-Libs/");
+        dom.setAttribute(el5, "target", "_blank");
         var el6 = dom.createTextNode("Spiel");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
@@ -1065,6 +1069,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("a");
         dom.setAttribute(el4, "href", "https://leighebryant.github.io/loginRegister/");
+        dom.setAttribute(el4, "target", "_blank");
         var el5 = dom.createElement("img");
         dom.setAttribute(el5, "class", "thumbnail");
         dom.setAttribute(el5, "src", "images/simpleloginscreenshot.png");
@@ -1083,6 +1088,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         var el5 = dom.createElement("a");
         dom.setAttribute(el5, "class", "projectLink");
         dom.setAttribute(el5, "href", "https://leighebryant.github.io/loginRegister/");
+        dom.setAttribute(el5, "target", "_blank");
         var el6 = dom.createTextNode("loginRegister");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
@@ -1125,6 +1131,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("a");
         dom.setAttribute(el4, "href", "https://leighebryant.github.io/Zoo/");
+        dom.setAttribute(el4, "target", "_blank");
         var el5 = dom.createElement("img");
         dom.setAttribute(el5, "class", "thumbnail");
         dom.setAttribute(el5, "src", "images/zooscreenshot.png");
@@ -1143,6 +1150,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         var el5 = dom.createElement("a");
         dom.setAttribute(el5, "class", "projectLink");
         dom.setAttribute(el5, "href", "https://leighebryant.github.io/Zoo/");
+        dom.setAttribute(el5, "target", "_blank");
         var el6 = dom.createTextNode("The Zoo");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
@@ -1221,7 +1229,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+7bf9768e"});
+  require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+adde0d25"});
 }
 
 /* jshint ignore:end */
