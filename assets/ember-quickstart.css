@@ -48,7 +48,7 @@ ul.navigation {
   text-align: center; }
   ul.navigation li {
     display: inline-block;
-    padding: 15px 10px;
+    padding: 17px 10px 13px 10px;
     font-family: "Quicksand", sans-serif;
     height: 40%; }
     ul.navigation li:hover, ul.navigation li.active {
@@ -59,7 +59,7 @@ ul.navigation {
       text-decoration: none; }
 
 .logoContainer {
-  background: #39374b; }
+  background: #3A384C; }
 
 .headerImage img {
   height: 250px;
@@ -77,21 +77,23 @@ ul.navigation {
 
 .contactBar {
   background: #844851;
-  height: 30px;
+  height: 50px;
   text-align: center;
-  font-size: 25px; }
+  font-size: 30px; }
   .contactBar i {
-    padding: 2px 10px;
+    padding: 8px 10px;
     color: #f9f1e9; }
     .contactBar i:hover, .contactBar i:active {
       cursor: pointer;
-      color: #39374b; }
+      color: #3A384C; }
 
 .profile {
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  padding: 20px; }
+  margin: 20px;
+  margin-bottom: 40px;
+  border: 3px solid #5b2a32; }
 
 .profileContainer {
   display: flex;
@@ -117,7 +119,7 @@ ul.navigation {
   .profile {
     width: 150px;
     height: 150px;
-    padding: 10px; } }
+    margin: 10px; } }
 
 .connectForm {
   margin: 0 auto; }
@@ -133,6 +135,10 @@ ul.navigation {
     font-size: 12px;
     background: #844851;
     color: #f9f1e9; }
+    .connectForm input:active, .connectForm input:focus,
+    .connectForm textarea:active,
+    .connectForm textarea:focus {
+      background: #cf5b63; }
 
 ::-webkit-input-placeholder {
   color: #f9f1e9; }
@@ -165,7 +171,7 @@ ul.navigation {
 .imageContainer {
   background: #844851;
   border-radius: 2px;
-  padding: 4px 4px 1px; }
+  padding: 3px 3px 0px; }
   .imageContainer .thumbnail {
     width: 100%; }
 
@@ -175,15 +181,21 @@ ul.navigation {
 
 .projectLink {
   text-decoration: none;
-  color: #39374b;
+  color: #3A384C;
   border-bottom: solid 1px #f8afad; }
   .projectLink:hover {
     border-bottom: solid 3px #cf5b63;
     transition: .5s ease-in-out; }
 
+#linky {
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #5b2a32; }
+
 .banner {
   width: 50%;
-  padding: 20px;
+  padding: 40px;
   margin: 0 auto; }
 
 @media only screen and (max-width: 550px) {
@@ -196,13 +208,13 @@ ul.navigation {
 .contentContainer {
   margin: 0 auto;
   width: 50%;
-  padding: 20px; }
+  padding: 40px 20px 20px; }
 
 .logo {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: #39374b; }
+  background: #3A384C; }
 
 .mainPage {
   width: 90%;
@@ -220,15 +232,14 @@ h1 {
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
   padding-bottom: 15px;
-  transition: .3s ease-in-out; }
+  transition: 0.3s ease-in-out; }
 
 h2 {
   font-size: 25px;
   color: #5b2a32;
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
-  padding-left: 10px;
-  padding-top: 10px; }
+  padding-top: 30px; }
 
 h3 {
   font-size: 18px;
@@ -240,28 +251,36 @@ h3 {
   padding-top: 10px;
   text-align: center; }
 
+h6 {
+  font-size: 20px;
+  color: #5b2a32;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  line-height: 1.2;
+  padding-bottom: 10px; }
+
 p {
   font-family: "Quicksand", sans-serif;
-  padding: 10px; }
+  padding: 10px 0;
+  line-height: 1.3; }
 
 button {
-  background: #cf5b63;
-  color: #39374b;
+  background: #3A384C;
+  color: #f9f1e9;
   border: none;
   border-radius: 5px;
   padding: 5px 15px;
   font-size: 14px;
   outline: none;
-  border-bottom: 2px solid #39374b;
   cursor: pointer;
-  float: right;
-  margin: 10px 0; }
+  float: right; }
+  button#submit-button {
+    margin: 10px -10px; }
   button:active, button:hover {
-    background: #f8afad;
-    color: #844851;
-    border-bottom: 2px solid #844851; }
+    background: #5b2a32;
+    color: #f9f1e9; }
   button a {
-    color: #39374b;
+    color: #f9f1e9;
     text-decoration: none; }
 
 @media only screen and (max-width: 850px) {
@@ -276,7 +295,9 @@ button {
 
 @media only screen and (max-width: 550px) {
   h3 {
-    font-size: 16px; }
+    font-size: 16px;
+    text-align: left;
+    padding-left: 0; }
   p {
     font-size: 15px; }
   #homeImage {
@@ -287,6 +308,4 @@ button {
 @media only screen and (max-width: 450px) {
   .contentContainer {
     width: 80%;
-    padding: 10px; } }
-
-/*# sourceMappingURL=ember-quickstart.css.map */
+    padding: 40px 10px 10px; } }
