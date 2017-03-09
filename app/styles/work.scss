@@ -6,7 +6,7 @@
 .imageContainer {
   background: $heirloom-rose;
   border-radius: 2px;
-  padding: 4px 4px 1px;
+  padding: 3px 3px 0px;
 
   .thumbnail {
     width: 100%;
@@ -29,9 +29,16 @@
   }
 }
 
+#linky{
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $oxblood;
+}
+
 .banner{
   width: 50%;
-  padding: 20px;
+  padding: 40px;
   margin: 0 auto;
 }
 

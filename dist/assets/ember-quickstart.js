@@ -435,7 +435,7 @@ define("ember-quickstart/templates/connect", ["exports"], function (exports) {
             "column": 0
           },
           "end": {
-            "line": 27,
+            "line": 28,
             "column": 0
           }
         },
@@ -476,6 +476,7 @@ define("ember-quickstart/templates/connect", ["exports"], function (exports) {
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("a");
         dom.setAttribute(el3, "href", "https://www.twitter.com/_lebry");
+        dom.setAttribute(el3, "target", "_blank");
         var el4 = dom.createElement("i");
         dom.setAttribute(el4, "class", "fa fa-twitter");
         dom.setAttribute(el4, "aria-hidden", "true");
@@ -484,7 +485,18 @@ define("ember-quickstart/templates/connect", ["exports"], function (exports) {
         var el3 = dom.createTextNode("\n    ");
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("a");
+        dom.setAttribute(el3, "href", "https://dribbble.com/leighbryant");
+        dom.setAttribute(el3, "target", "_blank");
+        var el4 = dom.createElement("i");
+        dom.setAttribute(el4, "class", "fa fa-dribbble");
+        dom.setAttribute(el4, "aria-hidden", "true");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        var el3 = dom.createTextNode("\n    ");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createElement("a");
         dom.setAttribute(el3, "href", "https://github.com/leighebryant");
+        dom.setAttribute(el3, "target", "_blank");
         var el4 = dom.createElement("i");
         dom.setAttribute(el4, "class", "fa fa-github");
         dom.setAttribute(el4, "aria-hidden", "true");
@@ -494,6 +506,7 @@ define("ember-quickstart/templates/connect", ["exports"], function (exports) {
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("a");
         dom.setAttribute(el3, "href", "https://www.linkedin.com/in/leigh-bryant-43633aba");
+        dom.setAttribute(el3, "target", "_blank");
         var el4 = dom.createElement("i");
         dom.setAttribute(el4, "class", "fa fa-linkedin");
         dom.setAttribute(el4, "aria-hidden", "true");
@@ -550,6 +563,7 @@ define("ember-quickstart/templates/connect", ["exports"], function (exports) {
         var el4 = dom.createTextNode("\n    ");
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("button");
+        dom.setAttribute(el4, "id", "submit-button");
         dom.setAttribute(el4, "type", "submit");
         dom.setAttribute(el4, "value", "Submit");
         var el5 = dom.createElement("i");
@@ -887,7 +901,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
             "column": 0
           },
           "end": {
-            "line": 67,
+            "line": 60,
             "column": 0
           }
         },
@@ -948,7 +962,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         dom.setAttribute(el4, "target", "_blank");
         var el5 = dom.createElement("img");
         dom.setAttribute(el5, "class", "thumbnail");
-        dom.setAttribute(el5, "src", "images/zooscreenshot.png");
+        dom.setAttribute(el5, "src", "images/poniesscreenshot.png");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
         var el4 = dom.createTextNode("\n    ");
@@ -963,22 +977,22 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         var el4 = dom.createElement("h2");
         var el5 = dom.createElement("a");
         dom.setAttribute(el5, "class", "projectLink");
-        dom.setAttribute(el5, "href", "http://pet-pals.firebaseapp.com");
+        dom.setAttribute(el5, "href", "https://leighebryant.github.io/devTest/");
         dom.setAttribute(el5, "target", "_blank");
-        var el6 = dom.createTextNode("PetPals NC");
+        var el6 = dom.createTextNode("Ponies");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
         var el4 = dom.createTextNode("\n      ");
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("p");
-        var el5 = dom.createTextNode("A responive and informative site created for a non-profit based out of Hillsborough, NC, that provides pet assisted therapy to students of all ages.");
+        var el5 = dom.createTextNode("A fun and responsive one page application to practice jQuery, flexbox, mobile menus and CSS attributes. Created from a sketch and translated into a Photoshop document and then brought to life.");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
         var el4 = dom.createTextNode("\n      ");
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("h3");
-        var el5 = dom.createTextNode(" EmberJS - JavaScript - HTML5 - Sass");
+        var el5 = dom.createTextNode(" HTML5 - Sass - jQuery - Slick.JS - Illustrator - Photoshop");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
         var el4 = dom.createTextNode("\n    ");
@@ -1040,7 +1054,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         var el4 = dom.createTextNode("\n      ");
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("h3");
-        var el5 = dom.createTextNode(" EmberJS - JavaScript - HTML5 - Sass");
+        var el5 = dom.createTextNode(" HTML5 - Sass - EmberJS - Bootstrap - JavaScript ");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
         var el4 = dom.createTextNode("\n    ");
@@ -1102,7 +1116,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         var el4 = dom.createTextNode("\n      ");
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("h3");
-        var el5 = dom.createTextNode(" AngularJS - JavaScript - jQuery - HTML5 - Sass");
+        var el5 = dom.createTextNode(" HTML5 - Sass - AngularJS - JavaScript - jQuery - Photoshop");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
         var el4 = dom.createTextNode("\n    ");
@@ -1164,7 +1178,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         var el4 = dom.createTextNode("\n      ");
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("h3");
-        var el5 = dom.createTextNode("JavaScript - jQuery - HTML5 - Sass");
+        var el5 = dom.createTextNode("HTML5 - Sass - JavaScript - jQuery");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
         var el4 = dom.createTextNode("\n    ");
@@ -1184,60 +1198,26 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         var el2 = dom.createTextNode("\n  ");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("div");
-        dom.setAttribute(el2, "class", "workContainer");
-        var el3 = dom.createTextNode("\n    ");
-        dom.appendChild(el2, el3);
-        var el3 = dom.createElement("div");
-        dom.setAttribute(el3, "class", "imageContainer");
-        var el4 = dom.createTextNode("\n      ");
+        var el3 = dom.createElement("h6");
+        var el4 = dom.createTextNode("See more of my code and design on my\n  ");
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("a");
-        dom.setAttribute(el4, "href", "https://leighebryant.github.io/Zoo/");
-        dom.setAttribute(el4, "target", "_blank");
-        var el5 = dom.createElement("img");
-        dom.setAttribute(el5, "class", "thumbnail");
-        dom.setAttribute(el5, "src", "images/zooscreenshot.png");
+        dom.setAttribute(el4, "id", "linky");
+        dom.setAttribute(el4, "href", "assets/LBryantResume.pdf");
+        dom.setAttribute(el4, "target", "blank");
+        dom.setAttribute(el4, "name", "More Work");
+        var el5 = dom.createTextNode("Github");
         dom.appendChild(el4, el5);
-        dom.appendChild(el3, el4);
-        var el4 = dom.createTextNode("\n    ");
-        dom.appendChild(el3, el4);
-        dom.appendChild(el2, el3);
-        var el3 = dom.createTextNode("\n    ");
-        dom.appendChild(el2, el3);
-        var el3 = dom.createElement("div");
-        dom.setAttribute(el3, "class", "infoContainer");
-        var el4 = dom.createTextNode("\n      ");
-        dom.appendChild(el3, el4);
-        var el4 = dom.createElement("h2");
-        var el5 = dom.createElement("a");
-        dom.setAttribute(el5, "class", "projectLink");
-        dom.setAttribute(el5, "href", "https://leighebryant.github.io/Zoo/");
-        dom.setAttribute(el5, "target", "_blank");
-        var el6 = dom.createTextNode("The Zoo");
-        dom.appendChild(el5, el6);
-        dom.appendChild(el4, el5);
-        dom.appendChild(el3, el4);
-        var el4 = dom.createTextNode("\n      ");
-        dom.appendChild(el3, el4);
-        var el4 = dom.createElement("p");
-        var el5 = dom.createTextNode("A fun experiment using vanilla JS constructors and prototypes to build a zoo of animals with different methods.");
-        dom.appendChild(el4, el5);
-        dom.appendChild(el3, el4);
-        var el4 = dom.createTextNode("\n      ");
-        dom.appendChild(el3, el4);
-        var el4 = dom.createElement("h3");
-        var el5 = dom.createTextNode("JavaScript - HTML5 - Sass");
-        dom.appendChild(el4, el5);
-        dom.appendChild(el3, el4);
-        var el4 = dom.createTextNode("\n    ");
         dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
         var el3 = dom.createTextNode("\n  ");
         dom.appendChild(el2, el3);
-        dom.appendChild(el1, el2);
-        var el2 = dom.createTextNode("\n  ");
-        dom.appendChild(el1, el2);
-        var el2 = dom.createComment(" <div class='banner'><img src='images/banner.svg'></div> ");
+        var el3 = dom.createElement("h6");
+        var el4 = dom.createTextNode("This website was made by Leigh Bryant using HTML5, Sass, EmberJS, JavaScript, and Illustrator.");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        var el3 = dom.createTextNode("\n");
+        dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n");
         dom.appendChild(el1, el2);

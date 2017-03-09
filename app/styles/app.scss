@@ -5,55 +5,53 @@
 @import 'connect';
 @import 'work';
 
-.ember-application{
+.ember-application {
   background: $cream;
 }
 
-.contentContainer{
+.contentContainer {
   margin: 0 auto;
   width: 50%;
-  padding: 20px;
+  padding: 40px 20px 20px;
 }
 
-.logo{
+.logo {
   width: 100%;
   height: 100%;
   position: absolute;
   background: $twilight;
 }
 
-.mainPage{
+.mainPage {
   width: 90%;
   position: absolute;
 }
 
-#homeImage{
+#homeImage {
   width: 100%;
   padding-top: 2%;
   padding-left: 5%;
 }
 
-h1{
+h1 {
   font-size: 32px;
   text-transform: lowercase;
   color: $oxblood;
   font-family: $main-font;
   font-weight: bold;
   padding-bottom: 15px;
-  transition: .3s ease-in-out;
-
+  transition: 0.3s ease-in-out;
 }
 
-h2{
+h2 {
   font-size: 25px;
   color: $oxblood;
   font-family: $main-font;
   font-weight: bold;
-  padding-left: 10px;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 
-h3{
+h3 {
   font-size: 18px;
   color: $oxblood;
   font-family: $main-font;
@@ -64,67 +62,82 @@ h3{
   text-align: center;
 }
 
-p{
+h6 {
+  font-size: 20px;
+  color: $oxblood;
   font-family: $main-font;
-  padding: 10px;
+  text-align: center;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+
+p {
+  font-family: $main-font;
+  padding: 10px 0;
+  line-height: 1.3;
 }
 
 button {
-  background: $persimmon;
-  color: $twilight;
+  background: $twilight;
+  color: $cream;
   border: none;
   border-radius: 5px;
   padding: 5px 15px;
   font-size: 14px;
   outline: none;
-  border-bottom: 2px solid $twilight;
   cursor: pointer;
   float: right;
-  margin: 10px 0;
+  
+
+  &#submit-button {
+    margin: 10px -10px;
+  }
 
   &:active,
   &:hover {
-    background: $rosehip;
-    color: $heirloom-rose;
-    border-bottom: 2px solid $heirloom-rose;
+    background: $oxblood;
+    color: $cream;
   }
 
-  a{
-    color: $twilight;
+  a {
+    color: $cream;
     text-decoration: none;
   }
 }
-
-
-@media only screen and (max-width: 850px){
-  .contentContainer{
+@media only screen and (max-width: 850px) {
+  .contentContainer {
     width: 60%;
   }
 }
-@media only screen and (max-width: 750px){
-  .contentContainer{
+@media only screen and (max-width: 750px) {
+  .contentContainer {
     width: 70%;
   }
-  #homeImage{
+
+  #homeImage {
     padding-top: 20%;
   }
 }
-@media only screen and (max-width: 550px){
-  h3{
+@media only screen and (max-width: 550px) {
+  h3 {
     font-size: 16px;
+    text-align: left;
+    padding-left: 0;
   }
-  p{
+
+  p {
     font-size: 15px;
   }
-  #homeImage{
+
+  #homeImage {
     padding-top: 30%;
     width: 100%;
     padding-left: 4%;
   }
 }
-@media only screen and (max-width: 450px){
-  .contentContainer{
+@media only screen and (max-width: 450px) {
+  .contentContainer {
     width: 80%;
-    padding: 10px;
+    padding: 40px 10px 10px;
   }
 }
