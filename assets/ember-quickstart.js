@@ -1203,7 +1203,7 @@ define("ember-quickstart/templates/work", ["exports"], function (exports) {
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("a");
         dom.setAttribute(el4, "id", "linky");
-        dom.setAttribute(el4, "href", "assets/LBryantResume.pdf");
+        dom.setAttribute(el4, "href", "https://github.com/leighebryant");
         dom.setAttribute(el4, "target", "blank");
         dom.setAttribute(el4, "name", "More Work");
         var el5 = dom.createTextNode("Github");
@@ -1271,7 +1271,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+ef1a3b42"});
+  require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+3a203760"});
 }
 
 /* jshint ignore:end */
