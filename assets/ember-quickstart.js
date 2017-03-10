@@ -1271,7 +1271,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+3a203760"});
+  require("ember-quickstart/app")["default"].create({"name":"ember-quickstart","version":"0.0.0+f62f5782"});
 }
 
 /* jshint ignore:end */
